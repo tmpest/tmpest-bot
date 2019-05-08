@@ -104,4 +104,6 @@ end
 # Get users like rollall, print ready up message with emoji reactions "Check Mark", "Red X", and maybe "Clock" (need a few min)
 # After X time, delete and state summary
 
-bot.run(false)
+# Run command
+background = ARGV[0] == 'true'
+bot.run(background)
